@@ -1,4 +1,8 @@
-public class Exercise_2 { 
+/*
+ * Time Complexity: O(1)
+ * Space Compexity: O(N)
+ */
+class StackAsLinkedList { 
   
     StackNode root; 
   
@@ -49,7 +53,7 @@ public class Exercise_2 {
     public static void main(String[] args) 
     { 
   
-        Exercise_2 sll = new Exercise_2(); 
+        StackAsLinkedList sll = new StackAsLinkedList(); 
   
         sll.push(10); 
         sll.push(20); 
